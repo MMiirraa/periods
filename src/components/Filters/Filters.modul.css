@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container-filters {
+  display: flex;
+  justify-content: start;
+  margin-left: 3vw;
+  margin-top: 20vh;
+}
+.filter {
+  display: flex;
+  flex-direction: column;
+  width: 13.5vw;
+  margin-left: 0 !important;
+  margin-right: 0.5vw !important;
+}
+.react-select-container {
+  margin-left: 0 !important;
+  margin-right: 0.5vw !important;
+  width: 13.5vw !important;
+}
+.filter-item {
+  width: 13.25vw !important;
+  height: 5vh !important;
+  background-color: rgb(243, 240, 215);
+  border-radius: 0.75vh;
+  margin-top: 0.5vh;
+  border: 0.25vh solid rgb(100, 100, 100);
+}

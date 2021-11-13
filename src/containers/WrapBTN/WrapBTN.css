@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container-btn {
+  display: flex;
+  margin-left: 5vw;
+  margin-top: 30.75vh;
+  width: 16vw;
+  justify-content: space-between;
+}

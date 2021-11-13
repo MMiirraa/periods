@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.css-b62m3t-container {
+  margin-top: 6vh;
+  margin-left: 3vw;
+  width: 50vw;
+}
+.select {
+  display: flex;
+  height: 2.5rem;
+}

@@ -1,0 +1,137 @@
+/*Global*/
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: helvetica, sans-serif;
+}
+/*Func*/
+/* label {
+  width: 100% !important;
+} */
+.nav {
+  display: flex;
+  flex-direction: column;
+  transition: 1s;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  font-size: x-large;
+  background-color: rgb(92, 190, 133);
+  border-radius: 1rem;
+}
+.multi-level {
+  display: flex;
+  flex-direction: column;
+}
+
+.multi-level, .item .wrap-item, .nav input[type="checkbox"] {
+  display: none;
+  transition: 0.5s;
+  /* background-color: rgb(237, 245, 240); */
+
+}
+#menu:checked ~ .multi-level, .item input:checked ~ .wrap-item {
+  display: block;
+  transition: 0.5s;
+  /* background-color: rgb(237, 245, 240); */
+
+}
+
+label:hover {
+  transition: 0.5s;
+  cursor: pointer;
+  /* background-color: thistle; */
+  border-radius: 1rem;
+}
+.item {
+  width: 100%;
+}
+.item > label:hover {
+  transition: 0.5s;
+  cursor: pointer;
+  color: white;
+  width: max-content;
+  border-radius: 1rem;
+}
+.wrap-item > label:hover {
+  transition: 0.5s;
+  cursor: pointer;
+  /* color: white; */
+  border-radius: 1rem;
+}
+.item > li > a:hover {
+  transition: 0.5s;
+  cursor: pointer;
+  /* color: white; */
+}
+.wrap-item > ul > li > a:hover {
+  transition: 0.5s;
+  cursor: pointer;
+  /* color: white; */
+}
+.wrap-item:hover {
+  transition: 0.5s;
+  cursor: pointer;
+  /* color: white; */
+  border-radius: 1rem;
+}
+label {
+  width: fit-content;
+  display: block;
+  z-index: 3;
+  position: relative;
+}
+.wrap-item > label {
+  width: min-content;
+  display: block;
+  z-index: 3;
+  position: relative;
+}
+ul.item {
+  width: 100% !important;
+}
+ul.item > li {
+  width: 100% !important;
+}
+ul.item > li > a {
+  width: 100% !important;
+}
+/* .wrap-item > ul > li > a {
+  width: 100% !important;
+} */
+ul {
+  width: 100% !important;
+}
+ul > li {
+  width: 100% !important;
+}
+ul > li > a {
+  width: 100% !important;
+}
+ul > li > a:hover {
+  color: rgba(247, 243, 243, 0.966);
+}
+a {
+  display: inline-block;
+  line-height: 50px;
+  margin: -2em;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-weight: 100;
+  width: 100%;
+  white-space: nowrap
+}
+.nav ul, .nav li, label {
+  line-height: 50px;
+  margin: 0;
+  padding: 0 2em;
+  list-style: none;
+  text-decoration: none;
+  /* color: #90A4AE; */
+  height: 50px;
+  font-weight: 100;
+  width: fit-content;
+}

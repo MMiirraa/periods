@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrap {
+  display: flex;
+}
+.container-content-left {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem 0rem 0rem 1rem;
+  background-color: rgba(230, 230, 230, 0.849);
+  height: 87vh;
+  width: 60vw;
+  margin: 2vh 5vw 0vh 5vw;
+}
+.container-content-right {
+  background-color: rgba(230, 230, 230, 0.849);
+  display: flex;
+  border-radius: 0rem 1rem 1rem 0rem;
+  height: 87vh;
+  width: 30vw;
+  margin: 2vh 5vw 0vh -5vw;
+}
